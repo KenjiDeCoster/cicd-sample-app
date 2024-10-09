@@ -17,4 +17,4 @@ node {
     stage('Results') {
         build 'TestSampleApp'
     }
-}
+}}
