@@ -2,12 +2,6 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from GitHub
-                git url: 'https://github.com/your-username/your-repo.git', branch: 'main'
-            }
-        }
         
         stage('Preparation') {
             steps {
