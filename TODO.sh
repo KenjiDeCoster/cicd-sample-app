@@ -6,7 +6,6 @@ if [ "$(docker ps -a --filter 'name=todo' -q)" ]; then
     docker rm todo
 fi
 
-
 cd getting-started-master/app
 
 docker build -t getting-started .
