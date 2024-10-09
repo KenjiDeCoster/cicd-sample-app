@@ -1,6 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
+if [ "$(docker ps -a --filter 'name=todo' -q)" ]; then
+    docker stop todo
+    docker rm todo
+fi
+
 
 cd getting-started-master/app
 
