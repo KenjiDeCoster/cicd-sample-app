@@ -6,7 +6,7 @@ ls
 cd getting-started-master
 pwd
 ls
-cd getting-started-master/app
+cd app
 pwd
 ls
 
