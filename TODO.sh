@@ -1,6 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
+echo pwd
 cd getting-started-master/app
 
 docker build -t getting-started .
